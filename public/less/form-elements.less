@@ -1,0 +1,14 @@
+@element-height-padding: 10px;
+@element-width-padding: 1%;
+
+/* Sizing Elements */
+.full { display: inline-block; width: calc(100% - 2 * @element-width-padding); }
+.half { display: inline-block; width: calc(50% - 2 * @element-width-padding); }
+.quarter { display: inline-block; width: calc(25% - 2 * @element-width-padding); }
+
+.form-element { padding: @element-height-padding @element-width-padding;
+  label { float: left; width: 100%; padding-bottom: 5px; }
+  input[type=text] { padding: 8px 15px; @light-border();
+    &:focus { @dark-border(); }
+  }
+}
