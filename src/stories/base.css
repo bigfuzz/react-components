@@ -11,6 +11,34 @@
 /*
     Font Styles:
 */
+/* Breakpoints */
+.full {
+  display: inline-block;
+  width: calc(100% - 2 * 1%);
+}
+.half {
+  display: inline-block;
+  width: calc(50% - 2 * 1%);
+}
+@media (max-width: 576px) {
+  .half {
+    width: calc(100% - 2 * 1%);
+  }
+}
+.quarter {
+  display: inline-block;
+  width: calc(25% - 2 * 1%);
+}
+@media (max-width: 768px) {
+  .quarter {
+    width: calc(50% - 2 * 1%);
+  }
+}
+@media (max-width: 576px) {
+  .quarter {
+    width: calc(100% - 2 * 1%);
+  }
+}
 /*Typography*/
 @font-face {
   font-family: 'Raleway';
@@ -70,22 +98,26 @@
   background: #fafef5;
 }
 /* Sizing Elements */
-.full {
+.form-group {
   display: inline-block;
-  width: calc(100% - 2 * 1%);
-}
-.half {
-  display: inline-block;
-  width: calc(50% - 2 * 1%);
-}
-.quarter {
-  display: inline-block;
-  width: calc(25% - 2 * 1%);
+  width: 100%;
 }
 .form-element {
   padding: 10px 1%;
 }
 .form-element label {
-  color: #7ed321;
+  float: left;
+  width: 100%;
+  padding-bottom: 5px;
+}
+.form-element input[type=text] {
+  padding: 8px 10px;
+  border: 1px solid #e3e3e3;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+.form-element input[type=text]:focus {
+  border: 1px solid #4a4a4a;
 }
 /*# sourceMappingURL=base.css.map */

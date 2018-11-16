@@ -140,6 +140,40 @@
 		"sI": 0,
 		"sU": 0
 		},
+	"/public/less/structure.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/public/less/structure-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/public/less/structure.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/public/less/structure.css.map",
+		"oF": 0
+		},
+	"/public/less/structure.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/public/less/structure.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
 	"/public/less/user.less": {
 		"aP": 0,
 		"bl": 0,

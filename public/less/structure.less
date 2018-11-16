@@ -1,0 +1,17 @@
+/* Breakpoints */
+@xlarge: 1200px;
+@large: 992px;
+@medium: 768px;
+@small: 576px;
+
+@element-height-padding: 10px;
+@element-width-padding: 1%;
+
+.full { display: inline-block; width: calc(100% - 2 * @element-width-padding); }
+.half { display: inline-block; width: calc(50% - 2 * @element-width-padding);
+  @media (max-width: @small) { width: calc(100% - 2 * @element-width-padding); }
+}
+.quarter { display: inline-block; width: calc(25% - 2 * @element-width-padding);
+  @media (max-width: @medium) { width: calc(50% - 2 * @element-width-padding); }
+  @media (max-width: @small) { width: calc(100% - 2 * @element-width-padding); }
+}
